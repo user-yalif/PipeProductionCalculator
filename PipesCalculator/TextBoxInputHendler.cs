@@ -10,27 +10,6 @@ namespace PipesCalculator
         private const string PeriodDecimalDelimiter = ".";
         private const string CommaDecimalDelimiter = ",";
 
-        public bool KeysInputHendler(TextBox textBox, KeyEventArgs e)
-        {
-            if (Control.ModifierKeys == Keys.Shift)
-            {
-                return false;
-            }
-
-            if (IsNumericInput(e) || IsDecimalPoint(e) || IsArrowInput(e) || IsDeleteInput(e))
-            {
-                if (IsDecimalPoint(e))
-                {
-                    return textBox.Text.ToString().Contains(PeriodDecimalDelimiter)
-                           || textBox.Text.ToString().Contains(CommaDecimalDelimiter) ? false : true;
-                }
-
-                return true;
-            }
-
-            return false;
-        }
-
         private bool IsNumericInput(KeyEventArgs e)
         {
             if (e.KeyCode < Keys.NumPad0 || e.KeyCode > Keys.NumPad9)
@@ -72,6 +51,27 @@ namespace PipesCalculator
             }
 
             return true;
+        }
+
+        public bool KeysInputHendler(TextBox textBox, KeyEventArgs e)
+        {
+            if (Control.ModifierKeys == Keys.Shift)
+            {
+                return false;
+            }
+
+            if (IsNumericInput(e) || IsDecimalPoint(e) || IsArrowInput(e) || IsDeleteInput(e))
+            {
+                if (IsDecimalPoint(e))
+                {
+                    return textBox.Text.ToString().Contains(PeriodDecimalDelimiter)
+                           || textBox.Text.ToString().Contains(CommaDecimalDelimiter) ? false : true;
+                }
+
+                return true;
+            }
+
+            return false;
         }
 
         public double FloatNumbersInputHendler(TextBox textBox)

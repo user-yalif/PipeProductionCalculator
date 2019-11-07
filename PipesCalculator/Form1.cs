@@ -13,7 +13,6 @@ namespace PipesCalculator
         private Pipes blankPipe;
         private Pipes pipe;
         private TextBoxInputHendler textBoxInput;
-        private ManualForm manualInstruction;
 
         public Form1()
         {
@@ -22,7 +21,6 @@ namespace PipesCalculator
             this.blankPipe = new Pipes();
             this.pipe = new Pipes();
             this.textBoxInput = new TextBoxInputHendler();
-            manualInstruction = new ManualForm();
 
             if (BearingsRadioButton.Checked == true)
             {
@@ -602,9 +600,9 @@ namespace PipesCalculator
             }
         }
 
-        private void HowToUseToolStripMenuItem_Click(object sender, EventArgs e)
+        private void AboutCalculatorToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            manualInstruction.Show();
+            MessageBox.Show("2019 Yrii Alifanov, Just for Fun");
         }
     }
 }

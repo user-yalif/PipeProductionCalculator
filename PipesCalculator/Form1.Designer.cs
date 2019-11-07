@@ -67,7 +67,6 @@
             this.PipeWorningMessage = new System.Windows.Forms.Label();
             this.MenuStrip = new System.Windows.Forms.MenuStrip();
             this.Menu = new System.Windows.Forms.ToolStripMenuItem();
-            this.HowToUseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutCalculatorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.StellGradeGroup.SuspendLayout();
             this.OrderWeightGroup.SuspendLayout();
@@ -397,22 +396,16 @@
             // Menu
             // 
             this.Menu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.HowToUseToolStripMenuItem,
             this.aboutCalculatorToolStripMenuItem1});
             this.Menu.Name = "Menu";
             resources.ApplyResources(this.Menu, "Menu");
             this.Menu.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
             // 
-            // HowToUseToolStripMenuItem
-            // 
-            this.HowToUseToolStripMenuItem.Name = "HowToUseToolStripMenuItem";
-            resources.ApplyResources(this.HowToUseToolStripMenuItem, "HowToUseToolStripMenuItem");
-            this.HowToUseToolStripMenuItem.Click += new System.EventHandler(this.HowToUseToolStripMenuItem_Click);
-            // 
             // aboutCalculatorToolStripMenuItem1
             // 
             this.aboutCalculatorToolStripMenuItem1.Name = "aboutCalculatorToolStripMenuItem1";
             resources.ApplyResources(this.aboutCalculatorToolStripMenuItem1, "aboutCalculatorToolStripMenuItem1");
+            this.aboutCalculatorToolStripMenuItem1.Click += new System.EventHandler(this.AboutCalculatorToolStripMenuItem1_Click);
             // 
             // Form1
             // 
@@ -504,8 +497,7 @@
         private System.Windows.Forms.Label OrderLengthWarningMessage;
         private System.Windows.Forms.Label StretchingCoefficientWarningMessage;
         private System.Windows.Forms.MenuStrip MenuStrip;
-        private System.Windows.Forms.ToolStripMenuItem Menu;
-        private System.Windows.Forms.ToolStripMenuItem HowToUseToolStripMenuItem;
+        private new System.Windows.Forms.ToolStripMenuItem Menu;
         private System.Windows.Forms.ToolStripMenuItem aboutCalculatorToolStripMenuItem1;
     }
 }
