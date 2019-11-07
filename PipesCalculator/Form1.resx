@@ -1,0 +1,1451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CarbonRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CarbonRadioButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="CarbonRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 18</value>
+  </data>
+  <data name="CarbonRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 30</value>
+  </data>
+  <data name="CarbonRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="CarbonRadioButton.Text" xml:space="preserve">
+    <value>Углеродистая
+сталь</value>
+  </data>
+  <data name="&gt;&gt;CarbonRadioButton.Name" xml:space="preserve">
+    <value>CarbonRadioButton</value>
+  </data>
+  <data name="&gt;&gt;CarbonRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CarbonRadioButton.Parent" xml:space="preserve">
+    <value>StellGradeGroup</value>
+  </data>
+  <data name="&gt;&gt;CarbonRadioButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BearingsRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BearingsRadioButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="BearingsRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 25</value>
+  </data>
+  <data name="BearingsRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 17</value>
+  </data>
+  <data name="BearingsRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BearingsRadioButton.Text" xml:space="preserve">
+    <value>ШХ</value>
+  </data>
+  <data name="&gt;&gt;BearingsRadioButton.Name" xml:space="preserve">
+    <value>BearingsRadioButton</value>
+  </data>
+  <data name="&gt;&gt;BearingsRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BearingsRadioButton.Parent" xml:space="preserve">
+    <value>StellGradeGroup</value>
+  </data>
+  <data name="&gt;&gt;BearingsRadioButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="StellGradeGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="StellGradeGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 30</value>
+  </data>
+  <data name="StellGradeGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 60</value>
+  </data>
+  <data name="StellGradeGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="StellGradeGroup.Text" xml:space="preserve">
+    <value>Марка стали</value>
+  </data>
+  <data name="&gt;&gt;StellGradeGroup.Name" xml:space="preserve">
+    <value>StellGradeGroup</value>
+  </data>
+  <data name="&gt;&gt;StellGradeGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StellGradeGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StellGradeGroup.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="OrderWeightTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="OrderWeightTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 25</value>
+  </data>
+  <data name="OrderWeightTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="OrderWeightTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="OrderWeightTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="OrderWeightTextBox.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="OrderWeightTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;OrderWeightTextBox.Name" xml:space="preserve">
+    <value>OrderWeightTextBox</value>
+  </data>
+  <data name="&gt;&gt;OrderWeightTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OrderWeightTextBox.Parent" xml:space="preserve">
+    <value>OrderWeightGroup</value>
+  </data>
+  <data name="&gt;&gt;OrderWeightTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="OrderWeightGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="OrderWeightGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 30</value>
+  </data>
+  <data name="OrderWeightGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 60</value>
+  </data>
+  <data name="OrderWeightGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="OrderWeightGroup.Text" xml:space="preserve">
+    <value>Вес по заказу, кг</value>
+  </data>
+  <data name="&gt;&gt;OrderWeightGroup.Name" xml:space="preserve">
+    <value>OrderWeightGroup</value>
+  </data>
+  <data name="&gt;&gt;OrderWeightGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OrderWeightGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;OrderWeightGroup.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LengthOnOrderTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="LengthOnOrderTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 27</value>
+  </data>
+  <data name="LengthOnOrderTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="LengthOnOrderTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LengthOnOrderTextBox.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="LengthOnOrderTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;LengthOnOrderTextBox.Name" xml:space="preserve">
+    <value>LengthOnOrderTextBox</value>
+  </data>
+  <data name="&gt;&gt;LengthOnOrderTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LengthOnOrderTextBox.Parent" xml:space="preserve">
+    <value>MetersOnOrderGroup</value>
+  </data>
+  <data name="&gt;&gt;LengthOnOrderTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="OrderLengthWarningMessage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="OrderLengthWarningMessage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="OrderLengthWarningMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 50</value>
+  </data>
+  <data name="OrderLengthWarningMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="OrderLengthWarningMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="OrderLengthWarningMessage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;OrderLengthWarningMessage.Name" xml:space="preserve">
+    <value>OrderLengthWarningMessage</value>
+  </data>
+  <data name="&gt;&gt;OrderLengthWarningMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OrderLengthWarningMessage.Parent" xml:space="preserve">
+    <value>MetersOnOrderGroup</value>
+  </data>
+  <data name="&gt;&gt;OrderLengthWarningMessage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MetersOnOrderGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="MetersOnOrderGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 265</value>
+  </data>
+  <data name="MetersOnOrderGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 80</value>
+  </data>
+  <data name="MetersOnOrderGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="MetersOnOrderGroup.Text" xml:space="preserve">
+    <value>Метраж по заказу, м</value>
+  </data>
+  <data name="&gt;&gt;MetersOnOrderGroup.Name" xml:space="preserve">
+    <value>MetersOnOrderGroup</value>
+  </data>
+  <data name="&gt;&gt;MetersOnOrderGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MetersOnOrderGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MetersOnOrderGroup.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="BlankPipeWorningMessage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BlankPipeWorningMessage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="BlankPipeWorningMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 50</value>
+  </data>
+  <data name="BlankPipeWorningMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="BlankPipeWorningMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="BlankPipeWorningMessage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;BlankPipeWorningMessage.Name" xml:space="preserve">
+    <value>BlankPipeWorningMessage</value>
+  </data>
+  <data name="&gt;&gt;BlankPipeWorningMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlankPipeWorningMessage.Parent" xml:space="preserve">
+    <value>BlankDimensionsGroup</value>
+  </data>
+  <data name="&gt;&gt;BlankPipeWorningMessage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BlankMeterWeightTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="BlankMeterWeightTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 21</value>
+  </data>
+  <data name="BlankMeterWeightTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="BlankMeterWeightTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BlankMeterWeightTextBox.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="BlankMeterWeightTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;BlankMeterWeightTextBox.Name" xml:space="preserve">
+    <value>BlankMeterWeightTextBox</value>
+  </data>
+  <data name="&gt;&gt;BlankMeterWeightTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlankMeterWeightTextBox.Parent" xml:space="preserve">
+    <value>BlankMeterWeightGroup</value>
+  </data>
+  <data name="&gt;&gt;BlankMeterWeightTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BlankMeterWeightGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="BlankMeterWeightGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 11</value>
+  </data>
+  <data name="BlankMeterWeightGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 60</value>
+  </data>
+  <data name="BlankMeterWeightGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="BlankMeterWeightGroup.Text" xml:space="preserve">
+    <value>Вес пог. метра, кг</value>
+  </data>
+  <data name="&gt;&gt;BlankMeterWeightGroup.Name" xml:space="preserve">
+    <value>BlankMeterWeightGroup</value>
+  </data>
+  <data name="&gt;&gt;BlankMeterWeightGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlankMeterWeightGroup.Parent" xml:space="preserve">
+    <value>BlankDimensionsGroup</value>
+  </data>
+  <data name="&gt;&gt;BlankMeterWeightGroup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BlankSideTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="BlankSideTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 28</value>
+  </data>
+  <data name="BlankSideTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="BlankSideTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="BlankSideTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BlankSideTextBox.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="BlankSideTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;BlankSideTextBox.Name" xml:space="preserve">
+    <value>BlankSideTextBox</value>
+  </data>
+  <data name="&gt;&gt;BlankSideTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlankSideTextBox.Parent" xml:space="preserve">
+    <value>BlankDimensionsGroup</value>
+  </data>
+  <data name="&gt;&gt;BlankSideTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 30</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 16</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>BlankDimensionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BlankDiameterTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="BlankDiameterTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 28</value>
+  </data>
+  <data name="BlankDiameterTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="BlankDiameterTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="BlankDiameterTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BlankDiameterTextBox.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="BlankDiameterTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;BlankDiameterTextBox.Name" xml:space="preserve">
+    <value>BlankDiameterTextBox</value>
+  </data>
+  <data name="&gt;&gt;BlankDiameterTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlankDiameterTextBox.Parent" xml:space="preserve">
+    <value>BlankDimensionsGroup</value>
+  </data>
+  <data name="&gt;&gt;BlankDiameterTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 30</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 16</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>BlankDimensionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="BlankDimensionsGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="BlankDimensionsGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 95</value>
+  </data>
+  <data name="BlankDimensionsGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 80</value>
+  </data>
+  <data name="BlankDimensionsGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BlankDimensionsGroup.Text" xml:space="preserve">
+    <value>Размер заготовки, мм</value>
+  </data>
+  <data name="&gt;&gt;BlankDimensionsGroup.Name" xml:space="preserve">
+    <value>BlankDimensionsGroup</value>
+  </data>
+  <data name="&gt;&gt;BlankDimensionsGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlankDimensionsGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BlankDimensionsGroup.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="StretchingCoefficientWarningMessage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="StretchingCoefficientWarningMessage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="StretchingCoefficientWarningMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 50</value>
+  </data>
+  <data name="StretchingCoefficientWarningMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="StretchingCoefficientWarningMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="StretchingCoefficientWarningMessage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;StretchingCoefficientWarningMessage.Name" xml:space="preserve">
+    <value>StretchingCoefficientWarningMessage</value>
+  </data>
+  <data name="&gt;&gt;StretchingCoefficientWarningMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StretchingCoefficientWarningMessage.Parent" xml:space="preserve">
+    <value>StretchingCoefficientGroup</value>
+  </data>
+  <data name="&gt;&gt;StretchingCoefficientWarningMessage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="StretchingCoefficientTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="StretchingCoefficientTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 27</value>
+  </data>
+  <data name="StretchingCoefficientTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="StretchingCoefficientTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="StretchingCoefficientTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="StretchingCoefficientTextBox.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="&gt;&gt;StretchingCoefficientTextBox.Name" xml:space="preserve">
+    <value>StretchingCoefficientTextBox</value>
+  </data>
+  <data name="&gt;&gt;StretchingCoefficientTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StretchingCoefficientTextBox.Parent" xml:space="preserve">
+    <value>StretchingCoefficientGroup</value>
+  </data>
+  <data name="&gt;&gt;StretchingCoefficientTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="StretchingCoefficientGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="StretchingCoefficientGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 265</value>
+  </data>
+  <data name="StretchingCoefficientGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 80</value>
+  </data>
+  <data name="StretchingCoefficientGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="StretchingCoefficientGroup.Text" xml:space="preserve">
+    <value>Коэффициент вытяжки</value>
+  </data>
+  <data name="&gt;&gt;StretchingCoefficientGroup.Name" xml:space="preserve">
+    <value>StretchingCoefficientGroup</value>
+  </data>
+  <data name="&gt;&gt;StretchingCoefficientGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StretchingCoefficientGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StretchingCoefficientGroup.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="BlankLengthTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="BlankLengthTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 28</value>
+  </data>
+  <data name="BlankLengthTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="BlankLengthTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="BlankLengthTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BlankLengthTextBox.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="&gt;&gt;BlankLengthTextBox.Name" xml:space="preserve">
+    <value>BlankLengthTextBox</value>
+  </data>
+  <data name="&gt;&gt;BlankLengthTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlankLengthTextBox.Parent" xml:space="preserve">
+    <value>BlankLengthGroup</value>
+  </data>
+  <data name="&gt;&gt;BlankLengthTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BlankLengthGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="BlankLengthGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 345</value>
+  </data>
+  <data name="BlankLengthGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 77</value>
+  </data>
+  <data name="BlankLengthGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="BlankLengthGroup.Text" xml:space="preserve">
+    <value>Длина заготовки, мм</value>
+  </data>
+  <data name="&gt;&gt;BlankLengthGroup.Name" xml:space="preserve">
+    <value>BlankLengthGroup</value>
+  </data>
+  <data name="&gt;&gt;BlankLengthGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlankLengthGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BlankLengthGroup.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="PipeLenghFromBlankTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="PipeLenghFromBlankTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 28</value>
+  </data>
+  <data name="PipeLenghFromBlankTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="PipeLenghFromBlankTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PipeLenghFromBlankTextBox.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="PipeLenghFromBlankTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;PipeLenghFromBlankTextBox.Name" xml:space="preserve">
+    <value>PipeLenghFromBlankTextBox</value>
+  </data>
+  <data name="&gt;&gt;PipeLenghFromBlankTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PipeLenghFromBlankTextBox.Parent" xml:space="preserve">
+    <value>PipeLenghFromBlankGroup</value>
+  </data>
+  <data name="&gt;&gt;PipeLenghFromBlankTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PipeLenghFromBlankGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="PipeLenghFromBlankGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 345</value>
+  </data>
+  <data name="PipeLenghFromBlankGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 77</value>
+  </data>
+  <data name="PipeLenghFromBlankGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="PipeLenghFromBlankGroup.Text" xml:space="preserve">
+    <value>Длина готовой трубы, мм</value>
+  </data>
+  <data name="&gt;&gt;PipeLenghFromBlankGroup.Name" xml:space="preserve">
+    <value>PipeLenghFromBlankGroup</value>
+  </data>
+  <data name="&gt;&gt;PipeLenghFromBlankGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PipeLenghFromBlankGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PipeLenghFromBlankGroup.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="PipeLengthTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="PipeLengthTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 28</value>
+  </data>
+  <data name="PipeLengthTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="PipeLengthTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="PipeLengthTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PipeLengthTextBox.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="&gt;&gt;PipeLengthTextBox.Name" xml:space="preserve">
+    <value>PipeLengthTextBox</value>
+  </data>
+  <data name="&gt;&gt;PipeLengthTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PipeLengthTextBox.Parent" xml:space="preserve">
+    <value>PipeLengthGroup</value>
+  </data>
+  <data name="&gt;&gt;PipeLengthTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PipeLengthGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="PipeLengthGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 425</value>
+  </data>
+  <data name="PipeLengthGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 77</value>
+  </data>
+  <data name="PipeLengthGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="PipeLengthGroup.Text" xml:space="preserve">
+    <value>Длина готовой трубы, мм</value>
+  </data>
+  <data name="&gt;&gt;PipeLengthGroup.Name" xml:space="preserve">
+    <value>PipeLengthGroup</value>
+  </data>
+  <data name="&gt;&gt;PipeLengthGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PipeLengthGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PipeLengthGroup.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="BlankLengthOutOfPipeTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="BlankLengthOutOfPipeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 28</value>
+  </data>
+  <data name="BlankLengthOutOfPipeTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="BlankLengthOutOfPipeTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BlankLengthOutOfPipeTextBox.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="BlankLengthOutOfPipeTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;BlankLengthOutOfPipeTextBox.Name" xml:space="preserve">
+    <value>BlankLengthOutOfPipeTextBox</value>
+  </data>
+  <data name="&gt;&gt;BlankLengthOutOfPipeTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlankLengthOutOfPipeTextBox.Parent" xml:space="preserve">
+    <value>BlankLengthOutOfPipeGroup</value>
+  </data>
+  <data name="&gt;&gt;BlankLengthOutOfPipeTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BlankLengthOutOfPipeGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="BlankLengthOutOfPipeGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 425</value>
+  </data>
+  <data name="BlankLengthOutOfPipeGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 77</value>
+  </data>
+  <data name="BlankLengthOutOfPipeGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="BlankLengthOutOfPipeGroup.Text" xml:space="preserve">
+    <value>Длина заготовки, мм</value>
+  </data>
+  <data name="&gt;&gt;BlankLengthOutOfPipeGroup.Name" xml:space="preserve">
+    <value>BlankLengthOutOfPipeGroup</value>
+  </data>
+  <data name="&gt;&gt;BlankLengthOutOfPipeGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlankLengthOutOfPipeGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BlankLengthOutOfPipeGroup.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ResetButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="ResetButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 520</value>
+  </data>
+  <data name="ResetButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 30</value>
+  </data>
+  <data name="ResetButton.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="ResetButton.Text" xml:space="preserve">
+    <value>Сбросить расчёт</value>
+  </data>
+  <data name="&gt;&gt;ResetButton.Name" xml:space="preserve">
+    <value>ResetButton</value>
+  </data>
+  <data name="&gt;&gt;ResetButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ResetButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ResetButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 30</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 16</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>PipeDimensionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="PipeDiameterTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="PipeDiameterTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 28</value>
+  </data>
+  <data name="PipeDiameterTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="PipeDiameterTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="PipeDiameterTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="PipeDiameterTextBox.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="PipeDiameterTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;PipeDiameterTextBox.Name" xml:space="preserve">
+    <value>PipeDiameterTextBox</value>
+  </data>
+  <data name="&gt;&gt;PipeDiameterTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PipeDiameterTextBox.Parent" xml:space="preserve">
+    <value>PipeDimensionsGroup</value>
+  </data>
+  <data name="&gt;&gt;PipeDiameterTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 30</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 16</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>PipeDimensionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PipeSideTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="PipeSideTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 28</value>
+  </data>
+  <data name="PipeSideTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="PipeSideTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="PipeSideTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="PipeSideTextBox.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="PipeSideTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;PipeSideTextBox.Name" xml:space="preserve">
+    <value>PipeSideTextBox</value>
+  </data>
+  <data name="&gt;&gt;PipeSideTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PipeSideTextBox.Parent" xml:space="preserve">
+    <value>PipeDimensionsGroup</value>
+  </data>
+  <data name="&gt;&gt;PipeSideTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PipeMeterWeightTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="PipeMeterWeightTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 21</value>
+  </data>
+  <data name="PipeMeterWeightTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="PipeMeterWeightTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PipeMeterWeightTextBox.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="PipeMeterWeightTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;PipeMeterWeightTextBox.Name" xml:space="preserve">
+    <value>PipeMeterWeightTextBox</value>
+  </data>
+  <data name="&gt;&gt;PipeMeterWeightTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PipeMeterWeightTextBox.Parent" xml:space="preserve">
+    <value>PipeMeterWeightGroup</value>
+  </data>
+  <data name="&gt;&gt;PipeMeterWeightTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PipeMeterWeightGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="PipeMeterWeightGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 11</value>
+  </data>
+  <data name="PipeMeterWeightGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 60</value>
+  </data>
+  <data name="PipeMeterWeightGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="PipeMeterWeightGroup.Text" xml:space="preserve">
+    <value>Вес пог. метра, кг</value>
+  </data>
+  <data name="&gt;&gt;PipeMeterWeightGroup.Name" xml:space="preserve">
+    <value>PipeMeterWeightGroup</value>
+  </data>
+  <data name="&gt;&gt;PipeMeterWeightGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PipeMeterWeightGroup.Parent" xml:space="preserve">
+    <value>PipeDimensionsGroup</value>
+  </data>
+  <data name="&gt;&gt;PipeMeterWeightGroup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PipeWorningMessage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PipeWorningMessage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="PipeWorningMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 50</value>
+  </data>
+  <data name="PipeWorningMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="PipeWorningMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="PipeWorningMessage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;PipeWorningMessage.Name" xml:space="preserve">
+    <value>PipeWorningMessage</value>
+  </data>
+  <data name="&gt;&gt;PipeWorningMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PipeWorningMessage.Parent" xml:space="preserve">
+    <value>PipeDimensionsGroup</value>
+  </data>
+  <data name="&gt;&gt;PipeWorningMessage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PipeDimensionsGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="PipeDimensionsGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 180</value>
+  </data>
+  <data name="PipeDimensionsGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 80</value>
+  </data>
+  <data name="PipeDimensionsGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="PipeDimensionsGroup.Text" xml:space="preserve">
+    <value>Размер готовой трубы, мм</value>
+  </data>
+  <data name="&gt;&gt;PipeDimensionsGroup.Name" xml:space="preserve">
+    <value>PipeDimensionsGroup</value>
+  </data>
+  <data name="&gt;&gt;PipeDimensionsGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PipeDimensionsGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PipeDimensionsGroup.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="MenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="HowToUseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="HowToUseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Руководство</value>
+  </data>
+  <data name="aboutCalculatorToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="aboutCalculatorToolStripMenuItem1.Text" xml:space="preserve">
+    <value>About Calculator</value>
+  </data>
+  <data name="Menu.ShowShortcutKeys" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Menu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="Menu.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="MenuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="MenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 24</value>
+  </data>
+  <data name="MenuStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="MenuStrip.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip.Name" xml:space="preserve">
+    <value>MenuStrip</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScrollMargin" type="System.Drawing.Size, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>464, 570</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAABAnAAAQJwAAAAAAAAAA
+        AACIRWX/iEVl/4hFZf92RFv/gElj/35IYf9+SGH/fkhh/35IYf9+SGH/fkhh/35IYf9+SGH/fkhh/35I
+        Yf9+SGH/fkhh/35IYf9+SGH/fkhh/35IYf9+SGH/fkhh/35IYf9+SGH/fkhh/35IYf9+SGH/fkhh/35I
+        Yf9+SGH/fkhh/35IYf9+SGH/fkhh/35IYf9+SGH/fkhh/35IYf9+SGH/fkhh/35IYf9/SGH/fUdg/2Y7
+        Tv+IRWX/iEVl/4hFZf+IRWX/iEVl/3AzTv+BQl//hEVi/4RFYv+ERWL/hEVi/4RFYv+ERWL/hEVi/4RF
+        Yv+ERWL/hEVi/4RFYv+ERWL/hEVi/4RFYv+ERWL/hEVi/4RFYv+ERWL/hEVi/4RFYv+ERWL/hEVi/4RF
+        Yv+ERWL/hEVi/4RFYv+ERWL/hEVi/4RFYv+ERWL/hEVi/4RFYv+ERWL/hEVi/4RFYv+ERWL/hEVi/4RF
+        Yv+ERWL/g0Rh/39BXf9cJz7/iEVl/4hFZf+IRWX/aC1H/4REYf+LS2j/i0to/4tLaP+LS2j/i0to/4tL
+        aP+LS2j/i0to/4tLaP+LS2j/i0to/4tLaP+LS2j/i0to/4tLaP+LS2j/i0to/4tLaP+LS2j/i0to/4tL
+        aP+LS2j/i0to/4tLaP+LS2j/i0to/4tLaP+LS2j/i0to/4tLaP+LS2j/i0to/4tLaP+LS2j/i0to/4tL
+        aP+LS2j/i0to/4tLaP+LS2j/i0to/4pJZv9+Plr/YT1O/4hFZf+IRWX/fDpY/4xMaf+MTGn/i0to/4tL
+        aP+LS2j/i0to/4tLaP+LS2j/i0to/4tLaP+LS2j/i0to/4tLaP+LS2j/i0to/4tLaP+LS2j/i0to/4tL
+        aP+LS2j/i0to/4tLaP+LS2j/i0to/4tLaP+LS2j/i0to/4tLaP+LS2j/i0to/4tLaP+LS2j/i0to/4tL
+        aP+LS2j/i0to/4tLaP+LS2j/i0to/4tLaP+LS2j/jEto/4xMaf+KSWf/aCpG/4hFZf9+UGX/iEdk/41N
+        av+NTGr/jUxq/41Mav+NTGr/jUxq/41Mav+NTGr/jUxq/41Mav+NTGr/jUxq/41Mav+NTGr/jUxq/41M
+        av+NTGr/jUxq/41Mav+NTGr/jUxq/41Mav+NTGr/jUxq/41Mav+NTGr/jUxq/41Mav+NTGr/jUxq/41M
+        av+NTGr/jUxq/41Mav+NTGr/jUxq/41Mav+NTGr/jUxq/41Mav+NTGr/jUxq/41Mav+OTWv/fjxa/5iE
+        jP97P1r/jkxr/45Na/+OTWv/jk1r/45Na/+OTWv/jk1r/45Na/+OTWv/jk1r/45Na/+OTWv/jk1r/45N
+        a/+OTWv/jk1r/45Na/+OTWv/jk1r/45Na/+OTWv/jk1r/45Na/+OTWv/jk1r/45Na/+OTWv/jk1r/45N
+        a/+OTWv/jk1r/45Na/+OTWv/jk1r/45Na/+OTWv/jk1r/45Na/+OTWv/jk1r/45Na/+OTWv/jk1r/45N
+        a/+OTWv/iEVl/4Febv+FRWP/j0xs/49Ma/+OTGv/jkxr/45Ma/+OTGv/jkxr/45Ma/+OTGv/jkxr/45M
+        a/+OTGv/jkxr/45Ma/+OTGv/jkxr/45Ma/+OTGv/jkxr/45Ma/+OTGv/jkxr/45Ma/+OTGv/jkxr/45M
+        a/+OTGv/jkxr/49Ma/+PTGv/j0xr/49Ma/+PTGv/jkxr/45Ma/+OTGv/jkxr/45Ma/+OTGv/jkxr/45M
+        a/+OTGv/jkxr/45Ma/+PTWv/jkpq/3lKYP+KSWb/kE5s/49ObP+PTmz/j05s/49ObP+PTmz/j05s/49O
+        bP+QTmz/kE5s/5BObP+QTmz/kE5s/5BObP+QTmz/kE5s/49ObP+PTmz/j05s/49ObP+PTmz/j05s/49O
+        bP+PTmz/j05s/49ObP+PTmz/kE5s/49ObP+PTmz/j05s/49ObP+PTmz/kE5s/49ObP+PTmz/j05s/49O
+        bP+PTmz/j05s/49ObP+PTmz/j05s/49ObP+QTmz/kU1s/3pHXv+LSWf/kU5t/5FNbf+RTW3/kU1t/5FN
+        bf+RTW3/kU1t/5FNbf+QTW3/kE1s/5BNbP+QTWz/kE1s/5BNbP+QTWz/kE1s/5FObf+RTW3/kU1t/5FN
+        bf+RTW3/kU1t/5FNbf+RTW3/kU1t/5FNbf+RTm3/kU5t/5BNbP+PTWv/j01r/49Na/+QTWz/kE1t/5FN
+        bf+RTW3/kU1t/5FNbf+RTW3/kU1t/5FNbf+RTW3/kU1t/5FNbf+RTm3/kk1t/3xHX/+MSmn/kk9u/5JO
+        bf+STm3/kk5t/5JObf+STm3/kk5t/5FObf+PTWv/jEtp/4pKZ/+KSmj/ikpo/4pKaP+LSmj/jEtp/5FN
+        bP+STm3/kk5t/5JObf+STm3/kk5t/5JObf+STm3/kk5t/5JObf+QTWz/jkxq/4pKaP+GSGX/iUlm/4hJ
+        Zf+KSmj/j01r/5FObf+STm3/kk5t/5JObf+STm3/kk5t/5JObf+STm3/kk5t/5JObf+STm3/k01t/3xI
+        YP+NSmn/lE9u/5NPbv+TT27/k09u/5NPbv+TT27/k09u/5JObf+KSmf/fkRe/3tCXP98Qlz/fEJc/3xC
+        XP98Ql3/gUVg/45Laf+TT27/k09u/5NPbv+TT27/k09u/5NPbv+TT27/k09u/5NObv+OTGr/hUhj/3tA
+        W/93OlT/fD9Z/3k7Vv98QVv/h0hl/5BNbP+TT27/k09u/5NPbv+TT27/k09u/5NPbv+TT27/k09u/5NP
+        bv+TT27/lE5u/31IYP+PS2n/lVBv/5RQb/+UUG//lFBv/5RQb/+UUG//lVBv/5RPb/+EOVf/bytG/2kp
+        Qf9qKEL/aihC/2koQv9rKUH/dTRO/4tLaP+UUG//lVBv/5RQb/+UUG//lFBv/5RQb/+VUG//lFBv/5BN
+        bP+ERmL/cjBK/20yS/95bX3/fFVs/3xnev9uMEn/eDpU/4pKZ/+STm3/lVBv/5RQb/+UUG//lFBv/5RQ
+        b/+UUG//lFBv/5RQb/+VUG//lk9v/35JYf+QTGv/llFw/5VQcP+VUHD/lVBw/5VQcP+VUHD/llBw/5NB
+        Y/+Uz9f/kdne/4/W2/+P1tr/j9ba/4/W2v+Q29//jLC6/41AYP+WUXD/llBw/5VQcP+VUHD/lVBw/5VQ
+        cP+WUHD/lFBu/4pJZv9yKkX/hqu1/53///+e////jJ2r/57///+a////d1pv/306Vv+NTGr/lVBw/5ZQ
+        cP+VUHD/lVBw/5VQcP+VUHD/lVBw/5VQcP+WUHD/l1Bw/39KYf+RTGz/mFFx/5dRcP+XUXD/l1Fw/5dR
+        cP+XUXD/l1Fx/5Y7X/+a////mv///5r///+a////mv///5r///+a////mv///5M8Xv+YUXH/l1Fw/5dR
+        cP+XUXD/l1Fw/5dRcP+XUXH/k05t/3koRv+P2t7/nP///5n///+Z////k6Gw/5n///+Z////nP///3dG
+        Xv+FQl//llBw/5hRcf+XUXD/l1Fw/5dRcP+XUXD/l1Fw/5dRcP+XUXH/mFBx/4BKYv+STW3/mVJy/5lS
+        cv+ZUnL/mVJy/5lScv+ZUnL/mVJy/5lKa/+Wg5n/mP///5n///+Z////mf///5n///+W+Pj/kHKK/5lM
+        bf+ZUnL/mVJy/5lScv+ZUnL/mVJy/5lScv+YUXH/iz9d/4WNnP+c////mf///5n///+X7O//llFw/5iP
+        o/+Y////mv///5Po6v97NlL/lE1s/5lScv+ZUnL/mVJy/5lScv+ZUnL/mVJy/5lScv+ZUnL/mVFy/4FK
+        Y/+TTm7/mlNz/5lScv+ZUnL/mVJy/5lScv+ZUnL/mVJy/5pScv+WNlv/l/Hy/5n///+Z////mf///5r/
+        //+HkJ//kDxd/5tTc/+aUnL/mVJy/5lScv+ZUnL/mVJy/5pScv+XT2//hEFe/5r///+Z////mf///5n/
+        //+PhZj/mEZo/5pGaP+XU3P/mP///5v///+Kmqj/kUNj/5pTc/+ZUnL/mVJy/5lScv+ZUnL/mVJy/5lS
+        cv+aUnL/mlJy/4JLZP+UTm7/m1Nz/5pTc/+aU3P/mlNz/5pTc/+aU3P/mlNz/5tTc/+XPmH/l/L0/5n/
+        //+Z////mf///5r///+IlqX/kUNj/5tTdP+aU3P/mlNz/5pTc/+aU3P/mlNz/5tTc/+VRmb/jJem/5r/
+        //+Z////mf///5r///+NZHz/mU1u/5tTc/+aRGf/l628/5n///+W8/X/kjxe/5tTc/+aU3P/mlNz/5pT
+        c/+aU3P/mlNz/5pTc/+bU3P/m1Jz/4JLZP+VT2//nFR0/5tUdP+bVHT/m1R0/5tUdP+bVHT/m1R0/5xU
+        dP+YP2L/l/L1/5n///+Z////mf///5r///+Il6X/kENj/5lScv+ZUnL/mlNz/5tUdP+bVHT/m1R0/5xU
+        dP+SPV//k9zh/5n///+Z////mf///5r///+NZ4D/mk5v/5xUdP+cUHH/mFx5/5j///+Z////lz1g/5xU
+        dP+bVHT/m1R0/5tUdP+bVHT/m1R0/5tUdP+cVHT/nFN0/4NMZf+WUHD/nVV1/5xUdP+cVHT/nFR0/5xU
+        dP+cVHT/nFR0/51Vdf+ZQGP/l/L1/5n///+Z////mf///5r///+Jl6X/iUBe/41Maf+PTmr/lVBv/5pT
+        cv+cVXX/nVR0/5xUdf+QQmL/l////5n///+Z////mf///5r///+OaIH/m09w/51UdP+cVHT/nERm/5j/
+        /v+Y7/H/nERn/5xUdP+cVHT/nFR0/5xUdP+cVHT/nFR0/5xUdP+dVHT/nVR1/4RNZv+WUHD/nlV1/51U
+        dP+dVHT/nVR0/51UdP+dVHT/nVR0/55Vdf+aQGP/l/L0/5n///+Z////mf///5r///+IlqX/fS9M/3o5
+        VP98PFb/hUdi/5FOa/+aU3L/nVV1/51Tcv+RUG3/mf///5n///+Z////mf///5n///+PaYH/nE9w/51V
+        df+dVHT/nVR0/51DZv+dRGj/nVR1/51UdP+dVHT/nVR0/51UdP+dVHT/nVR0/51UdP+dVXX/nVR1/4VN
+        Zv+YUXH/n1Z2/59Wdf+fVnX/n1Z1/59Wdf+fVnX/n1Z1/59Wdv+cQWX/l/L0/5n///+Z////mf///5r/
+        //+HjJv/jai0/4KGlf99dIX/cipF/38+Wf+TT23/nlV0/59PcP+Ue5H/mf///5n///+Z////mf///5n/
+        //+PaoH/nlBx/59Wdv+fVnX/n1Z1/59Wdf+fVnX/n1Z1/59Wdf+fVnX/n1Z1/59Wdf+fVnX/n1Z1/59W
+        df+fVnb/n1V2/4ZOZ/+ZUXH/oFZ3/59Vdv+fVXb/n1V2/59Vdv+fVXb/n1V2/6BWd/+dQWb/mPL0/5n/
+        //+Z////mf///5r///+IhZb/mPL0/5v///+c////mv///3tgdP+DPVr/mlNz/6BPcf+UfZT/mf///5n/
+        //+Z////mf///5n///+QaoL/n1By/6BWd/+fVXb/oFV3/59Wd/+fVnf/oFV3/59Vdv+fVXb/n1V2/59V
+        dv+fVXb/n1V2/59Vdv+gVnf/oFV3/4dOaP+aUnL/oVd4/6BXd/+gV3f/oFd3/6BXd/+gV3f/oFd3/6FX
+        eP+eQmf/mPL0/5n///+Z////mf///5r///+LiJn/l97k/5n///+Z////mf///5z///98SWH/lExr/6BQ
+        cv+XfpT/mf///5n///+Z////mf///5n///+Sa4T/oFFz/6FXeP+hV3f/n1d4/55Vdv+fVnf/oFd3/6BX
+        d/+gV3f/oFd3/6BXd/+gV3f/oFd3/6BXd/+hV3j/oVZ4/4dPaP+bUnT/old5/6FWeP+hVnj/oVZ4/6FW
+        eP+hVnj/oVZ4/6JXef+fQmj/mPL0/5n///+Z////mf///5r///+Ll6b/kzhb/5n///+Z////mf///5r/
+        //+R1dv/jDla/6FQc/+Yfpb/mf///5n///+Z////mf///5n///+Ra4P/oVF0/6JXef+iV3n/n1V3/5dR
+        cf+YUXH/n1Z3/6JXef+hVnj/oVZ4/6FWeP+hVnj/oVZ4/6FWeP+iV3n/olZ5/4hPaf+cUnT/o1d5/6JX
+        ef+iV3n/old5/6JXef+iV3n/old5/6NXef+gQ2n/mPL0/5n///+Z////mf///5r///+Lmaj/lTRY/5jg
+        5v+Z////mf///5n///+a////iUdk/6BOcf+agJf/mP///5n///+Z////mf///5n///+Sa4T/olJ1/6NX
+        ef+iWHr/nVN0/4lCYP+KQ2H/nVR0/6NXev+iV3n/old5/6JXef+iV3n/old5/6JXef+iV3n/pFd5/4lP
+        af+dU3X/pFh6/6NYev+jWHr/o1h6/6NYev+jWHr/o1h6/6RYev+hRGn/mPL0/5n///+Z////mf///5r/
+        //+Mmqn/ljhc/5jP2P+Z////mf///5n///+a////jnaM/6BKbP+dgZr/mP///5n///+Z////mf///5n/
+        //+Ta4X/o1J2/6RYev+jV3r/l0do/4iImf+Ieo7/mUxt/6RYev+jWHr/o1h6/6NYev+jWHr/o1h6/6NY
+        ev+jWHr/pVd6/4pPav+dVHb/pVl7/6RZe/+kWXv/pFl7/6RZe/+kWXv/pFl7/6VZe/+iRWr/l/P0/5n/
+        //+Z////mf///5r///+Nmqn/lzhc/5jS2f+Z////mf///5n///+Z////ko6h/6FLb/+fZIL/mP///5n/
+        //+Z////mf///5n///+TbIb/pFN3/6VZe/+jVnj/kUxr/5v///+Y////mD5i/6RZfP+kWXv/pFl7/6RZ
+        e/+kWXv/pFl7/6RZe/+kWXv/plh7/4pQa/+eVXf/plp8/6VZe/+lWXv/pVl7/6VZe/+lWXv/pVl7/6ZZ
+        e/+jRWv/l/P1/5n///+Z////mf///5r///+Nmqn/mDld/5fS2f+Z////mf///5n///+Z////lI2g/6NO
+        c/+jT3L/mP///5j///+Z////mf///5n///+UbIb/pVR3/6ZafP+gUnT/jm2E/5r///+X////mT9i/6Va
+        fP+lWXv/pVl7/6VZe/+lWXv/pVl7/6VZe/+lWXv/p1l8/4tQbP+gVXf/p1p8/6dZfP+nWXz/p1l8/6dZ
+        fP+nWXz/p1l8/6dafP+kRmv/mPP1/5j///+Z////mf///5r///+Nmqn/mTld/5jS2f+Z////mf///5n/
+        //+Y////mZCk/6ZRdf+nR23/meru/5j///+Z////mf///5n///+UbIX/pVN3/6ZZe/+ZSGn/jpyr/5r/
+        //+X////mz9j/6daff+nWXz/p1l8/6dZfP+nWXz/p1l8/6dZfP+nWnz/qFl8/41RbP+hVnj/qFt+/6da
+        fv+nWn7/p1p+/6dafv+nWn7/p1p+/6hbfv+iRWr/mPP0/5n///+Z////mf///5r///+Omqr/lDdb/5bQ
+        2P+Z////mf///5n///+Y////npGn/6hTeP+oUHX/n7HB/5j///+Z////mf///5n///+QaYL/oVJ1/6FW
+        eP+MOFn/lObo/5n///+X////m0Bl/6hbf/+oWn7/p1p+/6dafv+nWn7/p1p+/6dafv+oW37/qVp+/41S
+        bP+iV3n/qVx//6hbfv+oW37/qFt+/6hbfv+oW37/qVt+/6dbfv+bQWb/l/Hz/5n///+Z////mf///5r/
+        //+Nmqn/izJU/5PP1v+Z////mf///5j///+X////pWWG/6lYfP+pWHz/pmaH/5f///+Y////mf///5r/
+        //+KcYf/lkts/5FKaf+DU2z/m////5n///+X////m0Fm/6lcf/+oW37/qFt+/6hbfv+oW37/qFt+/6hb
+        fv+oW37/qlt//41SbP+jV3r/qlyA/6lcf/+pXH//qVx//6lcf/+pXH//qlyA/6lbfv+XOFz/lvj4/5n/
+        //+Z////mf///5r///+Omqn/hSJF/5f7+/+Z////mf///5j///+a+fn/qUpx/6pbf/+pXH//qkpx/53b
+        4f+Y////mf///5r///+KlKT/iDta/4ItTf+T3eL/mf///5n///+Y////nUFm/6lcf/+pXH//qVx//6lc
+        f/+pXH//qVx//6lcf/+pXH//q1uA/45Tbf+kWHv/q12B/6pdgP+qXYD/ql2A/6pdgP+qXYD/q12B/6pR
+        dv+atML/mP///5n///+Z////mf///5n///+TlKb/lbrF/5n///+Z////mP///5b///+ljaX/q1V6/6pd
+        gP+qXYD/q1p+/6pdgP+X////mP///5n///+X/Pz/i1Nv/5PI0P+a////mP///5j///+X////okRp/6td
+        gf+qXYD/ql2A/6pdgP+qXYD/ql2A/6pdgP+qXYD/rFyB/49Ubv+lWXz/rF6C/6tdgf+rXYH/q12B/6td
+        gf+rXYH/rF2B/61Jcf+V////mP///5j///+Y////mP///5f///+dn7L/mf///5j///+X////lv///6G/
+        zf+tS3L/rF2B/6tdgf+rXYH/q12B/6xUe/+of5r/lv///5j///+Z////mqO1/5n///+X////mP///5j/
+        //+Y////qkhv/6xegv+rXYH/q12B/6tdgf+rXYH/q12B/6tdgf+sXYH/rV2C/5BUb/+mWXz/rl6C/61d
+        gf+tXYH/rV2B/61dgf+tXYH/rV2B/65SeP+hydT/ndXe/57T3f+e093/ntPd/53a4v+mjKX/n9Lb/53U
+        3v+g0dv/qn6a/65MdP+tXYH/rV2B/61dgf+tXYH/rV2B/61dgf+uU3n/q3CP/5r6+/+V////oKq8/5X/
+        //+hw9D/r0Jr/5j///+X////rktz/61dgv+tXYH/rV2B/61dgf+tXYH/rV2B/61dgf+tXoL/r12C/5JV
+        cP+nWn3/r1+D/65fg/+uX4P/rl+D/65fg/+uX4P/rl+D/65fg/+vU3n/sFF4/7BReP+wUXj/sFF4/7BR
+        eP+vWH3/sFJ4/7BReP+wUnj/r1l+/65fg/+uX4P/rl+D/65fg/+uX4P/rl+D/65fg/+uX4P/r1p//69R
+        d/+vW4D/rmOG/69SeP+wU3r/r1yB/69Tef+vU3n/rl6C/65fg/+uX4P/rl+D/65fg/+uX4P/rl+D/65f
+        g/+uX4P/sF6D/5NVcf+pWn3/sF+E/69eg/+vXoP/r16D/69eg/+vXoP/r16D/69eg/+vXoP/r16D/69e
+        g/+vXoP/r16D/69eg/+vXoP/r16D/69eg/+vXoP/r16D/69eg/+vXoP/r16D/69eg/+vXoP/r16D/69e
+        g/+vXoP/r16D/69eg/+vXYL/r12C/69eg/+vXoP/r16D/69eg/+vXoP/r16D/69eg/+vXoP/r16D/69e
+        g/+vXoP/r16D/69eg/+vX4P/sV6E/5NUcf+qW37/sGCE/69fhP+vX4T/r1+E/69fhP+vX4T/r1+E/69f
+        hP+vX4T/r1+E/69fhP+vX4T/r1+E/69fhP+vX4T/r1+E/69fhP+vX4T/r1+E/69fhP+vX4T/r1+E/69f
+        hP+vX4T/r1+E/69fhP+vX4T/r1+E/69fhP+vX4T/r1+E/69fhP+vX4T/r1+E/69fhP+vX4T/r1+E/69f
+        hP+vX4T/r1+E/69fhP+vX4T/r1+E/69fhP+wYIT/sV+E/5NVcv+rW3//sWCF/7Bghf+wYIX/sGCF/7Bg
+        hf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bg
+        hf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bg
+        hf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bghf+xYIX/sl+F/5RWcf+rW3//sWCF/7Bg
+        hf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bg
+        hf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bg
+        hf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bghf+wYIX/sGCF/7Bghf+wYIX/sl+F/5RW
+        cf+uXYH/smCF/7JfhP+yYIX/smCF/7Jghf+yYIX/smCF/7Jghf+yYIX/smCF/7Jghf+yYIX/smCF/7Jg
+        hf+yYIX/smCF/7Jghf+yYIX/smCF/7Jghf+yYIX/smCF/7Jghf+yYIX/smCF/7Jghf+yYIX/smCF/7Jg
+        hf+yYIX/smCF/7Jghf+yYIX/smCF/7Jghf+yYIX/smCF/7Jghf+yYIX/smCF/7Jghf+yYIX/smCF/7Jg
+        hf+yYIX/s1+E/5pbd/+uXID/tGGG/7JfhP+zYIX/s2CF/7Nghf+zYIX/s2CF/7Nghf+zYIX/s2CF/7Ng
+        hf+zYIX/s2CF/7Nghf+zYIX/s2CF/7Nghf+zYIX/s2CF/7Nghf+zYIX/s2CF/7Nghf+zYIX/s2CF/7Ng
+        hf+zYIX/s2CF/7Nghf+zYIX/s2CF/7Nghf+zYIX/s2CF/7Nghf+zYIX/s2CF/7Nghf+zYIX/s2CF/7Ng
+        hf+zYIX/s2CF/7Nghf+zX4T/s16F/6Rthf+tZIT/uGSJ/7JfhP+zYIX/s2CF/7Nghf+zYIX/s2CF/7Ng
+        hf+zYIX/s2CF/7Nghf+zYIX/s2CF/7Nghf+zYIX/s2CF/7Nghf+zYIX/s2CF/7Nghf+zYIX/s2CF/7Ng
+        hf+zYIX/s2CF/7Nghf+zYIX/s2CF/7Nghf+zYIX/s2CF/7Nghf+zYIX/s2CF/7Nghf+zYIX/s2CF/7Ng
+        hf+zYIX/s2CF/7Nghf+zYIX/s2CF/7Nghf+yX4T/tF2D/7yVp/+uXID/v2eO/7Fdg/+yXoT/s16F/7Ne
+        hf+zXoX/s16F/7Nehf+zXoX/s16F/7Nehf+zXoX/s16F/7Nehf+zXoX/s16F/7Nehf+zXoX/s16F/7Ne
+        hf+zXoX/s16F/7Nehf+zXoX/s16F/7Nehf+zXoX/s16F/7Nehf+zXoX/s16F/7Nehf+zXoX/s16F/7Ne
+        hf+zXoX/s16F/7Nehf+zXoX/s16F/7Nehf+zXoX/s16F/7JehP+0YYb/sVZ//+qRuf+uXID/wWGM/7xo
+        jf+vXIL/sl6E/7JehP+yXoT/sl6E/7JehP+yXoT/sl6E/7JehP+yXoT/sl6E/7JehP+yXoT/sl6E/7Je
+        hP+yXoT/sl6E/7JehP+yXoT/sl6E/7JehP+yXoT/sl6E/7JehP+yXoT/sl6E/7JehP+yXoT/sl6E/7Je
+        hP+yXoT/sl6E/7JehP+yXoT/sl6E/7JehP+yXoT/sl6E/7JehP+yXoT/sV2D/7Bdgv/CbJP/rl+D/+qR
+        uf+uXID/zJKs/96Aqv/AbJH/sl6E/7Jeg/+yXoT/sl6E/7JehP+yXoT/sl6E/7JehP+yXoT/sl6E/7Je
+        hP+yXoT/sl6E/7JehP+yXoT/sl6E/7JehP+yXoT/sl6E/7JehP+yXoT/sl6E/7JehP+yXoT/sl6E/7Je
+        hP+yXoT/sl6E/7JehP+yXoT/sl6E/7JehP+yXoT/sl6E/7JehP+yXoT/sl6E/7JehP+yXoP/tWGG/8hz
+        mv/KapT/6pG5/+qRuf+uXID/56zG/9aKq//6mMT/7pW9/+qQuf/qkbn/6pG5/+qRuf/qkbn/6pG5/+qR
+        uf/qkbn/6pG5/+qRuf/qkbn/6pG5/+qRuf/qkbn/6pG5/+qRuf/qkbn/6pG5/+qRuf/qkbn/6pG5/+qR
+        uf/qkbn/6pG5/+qRuf/qkbn/6pG5/+qRuf/qkbn/6pG5/+qRuf/qkbn/6pG5/+qRuf/qkbn/6pG5/+qR
+        uf/pkLj/8Za//+aCrv/Vq73/6pG5/+esxv/nrMb/56zG/+esxv/oxtX/66vJ/+6qy//uqsv/7qrL/+6q
+        y//uqsv/7qrL/+6qy//uqsv/7qrL/+6qy//uqsv/7qrL/+6qy//uqsv/7qrL/+6qy//uqsv/7qrL/+6q
+        y//uqsv/7qrL/+6qy//uqsv/7qrL/+6qy//uqsv/7qrL/+6qy//uqsv/7qrL/+6qy//uqsv/7qrL/+6q
+        y//uqsv/7qrL/+6qy//vqsr/56zG/+qRuf/nrMb/56zG/+esxv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAA=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Pipe Calculator</value>
+  </data>
+  <data name="&gt;&gt;Menu.Name" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="&gt;&gt;Menu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HowToUseToolStripMenuItem.Name" xml:space="preserve">
+    <value>HowToUseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;HowToUseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aboutCalculatorToolStripMenuItem1.Name" xml:space="preserve">
+    <value>aboutCalculatorToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;aboutCalculatorToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
